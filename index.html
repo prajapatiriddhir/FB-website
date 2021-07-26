@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- start heder part -->
+    <nav>
+        <div class="nav-left">
+            <img src="imges/logo.png" class="logo" />
+            <ul>
+                <li><img src="imges/notification.png" /></li>
+                <li><img src="imges/inbox.png" /></li>
+                <li><img src="imges/video.png" /></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search">
+                <img src="imges/search.png" />
+                <input type="text" placeholder="search here...." />
+            </div>
+            <div class="user online" onclick="settingsMenuToggle()">
+                <img src="imges/profile-pic.png" />
+            </div>
+        </div>
+
+        <!-- setting-menu -->
+
+        <div class="setting-menu">
+
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="setting-inner">
+                <div class="user-pic">
+                    <img src="imges/profile-pic.png" />
+                    <div>
+                        <p>Jony Pal</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-pic">
+                    <img src="imges/feedback.png" />
+                    <div>
+                        <p>Give Feeback</p>
+                        <a href="#">Help Us</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-link">
+                    <img src="imges/setting.png" class="setting-icon" />
+                    <a href="#">Settings<img src="imges/arrow.png" width="10px" /></a>
+                </div>
+
+                <div class="setting-link">
+                    <img src="imges/help.png" class="setting-icon" />
+                    <a href="#">Help & Support<img src="imges/arrow.png" width="10px" /></a>
+                </div>
+
+                <div class="setting-link">
+                    <img src="imges/display.png" class="setting-icon" />
+                    <a href="#">Display<img src="imges/arrow.png" width="10px" /></a>
+                </div>
+
+                <div class="setting-link">
+                    <img src="imges/logout.png" class="setting-icon" />
+                    <a href="#">Logout<img src="imges/arrow.png" width="10px" /></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- setting-menu end -->
+    </nav>
+    <!-- end heder part -->
+
+
+    <!-- start content part -->
+
+    <div class="container">
+        <div class="left-part">
+            <!-- link 1 part -->
+            <div class="links">
+                <a href="#"><img src="imges/news.png" />Latest News</a>
+                <a href="#"><img src="imges/friends.png" />Friends</a>
+                <a href="#"><img src="imges/group.png" />Group</a>
+                <a href="#"><img src="imges/marketplace.png" />Markeplace</a>
+                <a href="#"><img src="imges/watch.png" />Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <!-- end link 1 part -->
+
+            <!-- start link 2 part -->
+            <div class="link-two">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="imges/shortcut-1.png" />Web Developer</a>
+                <a href="#"><img src="imges/shortcut-2.png" />Game Developer</a>
+                <a href="#"><img src="imges/shortcut-3.png" />Full Stack Developer</a>
+                <a href="#"><img src="imges/shortcut-4.png" />Python Developer</a>
+            </div>
+            <!-- end link 2 part -->
+        </div>
+        <div class="center-part">
+
+            <!-- start story part -->
+            <div class="gallery">
+                <div class="story story1">
+                    <img src="imges/upload.png" />
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story2">
+                    <img src="imges/member-1.png" />
+                    <p>Riddhi</p>
+                </div>
+
+                <div class="story story3">
+                    <img src="imges/member-2.png" />
+                    <p>Roy</p>
+                </div>
+
+                <div class="story story4">
+                    <img src="imges/member-3.png" />
+                    <p>Progremer</p>
+                </div>
+
+                <div class="story story5">
+                    <img src="imges/member-4.png" />
+                    <p>Jon</p>
+                </div>
+            </div>
+            <!-- end story part -->
+
+
+            <!-- start post part -->
+            <div class="write-post">
+                <div class="user-pic">
+                    <img src="imges/profile-pic.png" />
+                    <div>
+                        <p>Jony Pal</p>
+                        <small>Public</small>
+                    </div>
+                </div>
+
+
+                <div class="post-input">
+                    <textarea rows="3" placeholder="what's on your mind??"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="imges/live-video.png" />Like Video</a>
+                        <a href="#"><img src="imges/photo.png" />Photo/Video</a>
+                        <a href="#"><img src="imges/feeling.png" />Actitvity</a>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-pic">
+                                <img src="imges/profile-pic.png" />
+                                <div>
+                                    <p>Jony Pal</p>
+                                    <span>June 24 2021,11:40PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <p class="des">Lorem ipsum <span>dolor sit</span> amet consectetur, adipisicing elit. Debitis, ipsam
+                        est illo tempore doloremque quas.<a href="#">Easy Website</a><a href="#">YouTube Videos</a></p>
+                    <img class="post-img" src="imges/feed-image-1.png" />
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="imges/like-blue.png" />100</div>
+                            <div><img src="imges/comments.png" />10</div>
+                            <div><img src="imges/share.png" />30</div>
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imges/profile-pic.png" />
+                        </div>
+                    </div>
+
+
+                    <!-- copy -->
+
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-pic">
+                                <img src="imges/profile-pic.png" />
+                                <div>
+                                    <p>Jony Pal</p>
+                                    <span>June 24 2021,11:40PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <p class="des">Database<span>Is A Store Data</span> amet consectetur, adipisicing elit. Debitis,
+                        ipsam est illo tempore doloremque quas.<a href="#">Easy Website</a><a href="#">YouTube
+                            Videos</a></p>
+                    <img class="post-img" src="imges/feed-image-2.png" />
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="imges/like-blue.png" />50</div>
+                            <div><img src="imges/comments.png" />20</div>
+                            <div><img src="imges/share.png" />30</div>
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imges/profile-pic.png" />
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-pic">
+                                <img src="imges/profile-pic.png" />
+                                <div>
+                                    <p>Joy Pal</p>
+                                    <span>October 5 2021,11:40PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <p class="des">Database<span>Is A Store Data</span> amet consectetur, adipisicing elit. Debitis,
+                        ipsam est illo tempore doloremque quas.<a href="#">Easy Website</a><a href="#">YouTube
+                            Videos</a></p>
+                    <img class="post-img" src="imges/feed-image-3.png" />
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="imges/like-blue.png" />50</div>
+                            <div><img src="imges/comments.png" />20</div>
+                            <div><img src="imges/share.png" />30</div>
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imges/profile-pic.png" />
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-pic">
+                                <img src="imges/profile-pic.png" />
+                                <div>
+                                    <p>Neha Modh</p>
+                                    <span>Augest 2021,11 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <p class="des">Database<span>Is A Store Data</span> amet consectetur, adipisicing elit. Debitis,
+                        ipsam est illo tempore doloremque quas.<a href="#">Easy Website</a><a href="#">YouTube
+                            Videos</a></p>
+                    <img class="post-img" src="imges/feed-image-4.png" />
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="imges/like-blue.png" />50</div>
+                            <div><img src="imges/comments.png" />20</div>
+                            <div><img src="imges/share.png" />30</div>
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imges/profile-pic.png" />
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-pic">
+                                <img src="imges/profile-pic.png" />
+                                <div>
+                                    <p>Jony Pal</p>
+                                    <span>June 24 2021,11:40PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <p class="des">Database<span>Is A Store Data</span> amet consectetur, adipisicing elit. Debitis,
+                        ipsam est illo tempore doloremque quas.<a href="#">Easy Website</a><a href="#">YouTube
+                            Videos</a></p>
+                    <img class="post-img" src="imges/feed-image-5.png" />
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="imges/like-blue.png" />50</div>
+                            <div><img src="imges/comments.png" />20</div>
+                            <div><img src="imges/share.png" />30</div>
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imges/profile-pic.png" />
+                        </div>
+                    </div>
+                    <!-- copyuuu -->
+
+                </div>
+                <button class="btn" type="button">Load More</button>
+            </div>
+            <!--end post part  -->
+        </div>
+        <div class="right-part">
+            <div class="title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p>Gandhinagar</p>
+                    <a href="#">More Info</a>
+                </div>
+
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>July</span>
+                </div>
+                <div class="right-event">
+                    <h4>Product Markting</h4>
+                    <p>Dehgam</p>
+                    <a href="#">More Info</a>
+                </div>
+
+            </div>
+
+            <div class="title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="imges/advertisement.png" class="addver" />
+
+            <div class="title">
+                <h4>Communcation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="imges/member-1.png" />
+                </div>
+                <p>Riddhi Prajapati</p>
+
+            </div>
+
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="imges/member-2.png" />
+                </div>
+                <p>Salman Khan </p>
+
+            </div>
+
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="imges/member-3.png" />
+                </div>
+                <p>Dhrutika Patel</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- end content part -->
+
+    <div class="footer">
+        <p>Copyright 2021 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, accusamus?</p>
+    </div>
+    <script src="first.js"></script>
+</body>
+</html>
